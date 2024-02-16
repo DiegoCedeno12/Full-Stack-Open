@@ -64,10 +64,17 @@ sequenceDiagram
     deactivate Servidor
 
 ```
-## Screenshots
+#### Screenshots
 
 ![App Screenshot](./0.4_Nuevo_diagrama_de_nota.svg)
 
+Como podemos observar al cliente/usuario al guardar una nueva nota se realiza una nueva peticion al servidor esta vez de tipo POST el cual si lo vemos en el navegados se muestra se la siguiente manera
+
+![App Screenshot](./0.4-01.png)
+
+Ademas tambien podemos observar que una vez que el servidor guarda la respuesta nos da una respuesta que la podemos ver en "response"
+
+![App Screenshot](./0.4-02.png)
 
 ### 0.5 Nuevo Diagrama de Nota
 #### Formato de Mermaid
@@ -102,9 +109,13 @@ sequenceDiagram
     Note right of Navegador: El Servidor devuelve los datos de llamada a la API.
 
 ```
-## Screenshots
+#### Screenshots
 
 ![App Screenshot](./0.5_Diagrama_de_aplicacion_de_una_sola_pagina.svg)
+
+Como podemos observar al cliente/usuario al ingresar a la pagina se nos cargan los siguientes recursos iniciando con el html para mostrar el contenido, luego el css, posteriormente los archivos javascript para ejecutar funciones u operaciones que sean necesarias y se realiza la peticion get al servidor para obtener los datos en un formato json que se muestra al final
+
+![App Screenshot](./0.5-01.png)
 
 
 ### 0.6 Nuevo Diagrama de Nota
@@ -164,6 +175,14 @@ sequenceDiagram
     Servidor-->>Navegador: [{"content":"🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰","date":"2024-02-16T03:18:44.851Z"} ...]
     deactivate Servidor
 ```
-## Screenshots
+#### Screenshots
 
 ![App Screenshot](./0.6_Nueva_nota_en_diagrama_de_aplicacion_de_una_sola_pagina.svg)
+
+Como podemos observar el cliente/usuario al guardar una nueva nota se realiza una nueva peticion al servidor esta vez de tipo POST el cual si lo vemos en el navegados se muestra se la siguiente manera
+
+![App Screenshot](./0.6-01.png)
+
+Ademas tambien podemos observar que una vez que el servidor guarda la respuesta nos da una respuesta que la podemos ver en "response" de que la nota fue creada
+
+![App Screenshot](./0.6-02.png)
