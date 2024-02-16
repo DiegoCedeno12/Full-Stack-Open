@@ -68,11 +68,11 @@ sequenceDiagram
 
 ![App Screenshot](./0.4_Nuevo_diagrama_de_nota.svg)
 
-Como podemos observar al cliente/usuario al guardar una nueva nota se realiza una nueva peticion al servidor esta vez de tipo POST el cual si lo vemos en el navegados se muestra se la siguiente manera
+Como podemos observar al cliente/usuario al guardar una nueva nota se realiza una nueva peticion al servidor que se puede observar como "new_note"
 
 ![App Screenshot](./0.4-01.png)
 
-Ademas tambien podemos observar que una vez que el servidor guarda la respuesta nos da una respuesta que la podemos ver en "response"
+Ademas tambien podemos observar que una vez que es un tipo de peticion POST lo cual indica al servidor que la informacion enviada debe ser guardada
 
 ![App Screenshot](./0.4-02.png)
 
