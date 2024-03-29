@@ -1,0 +1,37 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "important": false
+    },
+    {
+      "id": "2",
+      "content": "Browser can execute only JavaScript",
+      "important": true
+    },
+    {
+      "id": "3",
+      "important": true
+    },
+    {
+      "id": "4",
+      "content": "mnbmnb",
+      "important": true
+    },
+    {
+      "id": "5",
+      "content": "Mi nueva nota",
+      "important": true
+    },
+    {
+      "id": "6",
+      "content": "Se va en bug",
+      "important": true
+    },
+    {
+      "id": "7",
+      "content": "Como estamos mi gente",
+      "important": true
+    }
+  ]
+}
