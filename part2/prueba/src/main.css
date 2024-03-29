@@ -1,0 +1,32 @@
+.success {
+  display: flex;
+  width: 50vw;
+  border: 1px solid #00b400;
+  border-radius: 7px;
+  color: #00b400;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+  background: #0000003d;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.error {
+  display: flex;
+  width: 50vw;
+  border: 1px solid #910101;
+  border-radius: 7px;
+  color: #910101;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+  background: #0000003d;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.oculto {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}

@@ -1,0 +1,24 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": "5d72ae0b-51a7-4364-867c-45033d8396bf"
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": "9121dcb4-1cbc-430a-b9f7-2117ab0f2d7b"
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": "1cd2c869-5e9c-4db0-b562-1a73105d4a70"
+    },
+    {
+      "id": "2830b795-4831-4520-9814-a807e6e21ca6",
+      "name": "Diego Cedeño",
+      "number": "0985451074"
+    }
+  ]
+}
