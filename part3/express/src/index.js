@@ -1,8 +1,10 @@
 const express = require('express')
+const cors = require('cors')
 
 const app = express()
 
 app.use(express.json())
+app.use(cors())
 
 let notes = [
   {
@@ -87,7 +89,7 @@ app.delete("/api/notes/:id", (req, res) => {
   return res.status(204).end()
 })
 
-
-app.listen(3000, () => {
-  console.log("Servidor corriendo en el puerto 3000")
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en el puerto ${PORT}`)
 })
